@@ -1,0 +1,141 @@
+{
+	"id": "48c81bac-ce73-ced3-d853-eecb8d969016",
+	"name": "Pragma AWS Ejercicio Node.js",
+	"description": "",
+	"order": [
+		"7b0b6b13-fafd-7197-aad3-421113b919e2",
+		"256227cf-a2e8-5733-ecec-9538af852669",
+		"f43e067b-9944-581f-b23e-da968d999c16",
+		"6c05f67f-31c3-e24e-322e-ccaf8fb6d98f"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1594085268461,
+	"owner": "4393352",
+	"public": false,
+	"requests": [
+		{
+			"id": "256227cf-a2e8-5733-ecec-9538af852669",
+			"headers": "",
+			"headerData": [],
+			"url": "https://4chf0r9lq6.execute-api.us-east-1.amazonaws.com/dev/jfbo?age=22",
+			"queryParams": [
+				{
+					"key": "identification",
+					"value": "8989898989",
+					"equals": true,
+					"description": "",
+					"enabled": false
+				},
+				{
+					"key": "age",
+					"value": "22",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594742916491,
+			"name": "getCustomer",
+			"description": "",
+			"collectionId": "48c81bac-ce73-ced3-d853-eecb8d969016",
+			"responses": []
+		},
+		{
+			"id": "6c05f67f-31c3-e24e-322e-ccaf8fb6d98f",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://4chf0r9lq6.execute-api.us-east-1.amazonaws.com/dev/jfbo",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "PUT",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594742910069,
+			"name": "updateCustomer",
+			"description": "",
+			"collectionId": "48c81bac-ce73-ced3-d853-eecb8d969016",
+			"responses": [],
+			"rawModeData": "{\n\t\"id\":\"e73a570b8e96f8c038faa1f3b70798b6\",\n\t\"identification\":\"666666666\",\n    \"idType\":\"cc\",\n    \"name\":\"Luis Fernando\",\n    \"lastName\":\"Muriel\",\n    \"age\":\"29\",\n    \"city\":\"Santo Tomás\"\n}"
+		},
+		{
+			"id": "7b0b6b13-fafd-7197-aad3-421113b919e2",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "https://4chf0r9lq6.execute-api.us-east-1.amazonaws.com/dev/jfbo",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594742913863,
+			"name": "createCustomer",
+			"description": "",
+			"collectionId": "48c81bac-ce73-ced3-d853-eecb8d969016",
+			"responses": [],
+			"rawModeData": "{\n    \"identification\":\"666666666\",\n    \"idType\":\"cc\",\n    \"name\":\"Luis Fernando\",\n    \"lastName\":\"Muriel\",\n    \"age\":\"29\",\n    \"city\":\"Santo Tomás\"\n}"
+		},
+		{
+			"id": "f43e067b-9944-581f-b23e-da968d999c16",
+			"headers": "",
+			"headerData": [],
+			"url": "https://4chf0r9lq6.execute-api.us-east-1.amazonaws.com/dev/jfbo?id=ccfa8e5a1658520c7e38f6da28a13f67",
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "ccfa8e5a1658520c7e38f6da28a13f67",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "DELETE",
+			"data": null,
+			"dataMode": "params",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1594737832653,
+			"name": "deleteCustomer",
+			"description": "",
+			"collectionId": "48c81bac-ce73-ced3-d853-eecb8d969016",
+			"responses": []
+		}
+	]
+}
